@@ -1,0 +1,107 @@
+08:10:38.076 [main] INFO  api.test.UserTests - ********** Creating user  ***************
+08:10:42.723 [main] INFO  api.test.UserTests - **********User is creatged  ***************
+08:10:42.765 [main] INFO  api.test.UserTests - ********** Reading User Info ***************
+08:10:44.063 [main] INFO  api.test.UserTests - **********User info  is displayed ***************
+08:10:44.088 [main] INFO  api.test.UserTests - ********** Updating User ***************
+08:10:45.327 [main] INFO  api.test.UserTests - ********** User updated ***************
+08:10:46.608 [main] INFO  api.test.UserTests - **********   Deleting User  ***************
+08:10:47.826 [main] INFO  api.test.UserTests - ********** User deleted ***************
+08:11:56.752 [main] INFO  api.test.UserTests - ********** Creating user  ***************
+08:12:01.470 [main] INFO  api.test.UserTests - **********User is creatged  ***************
+08:12:01.506 [main] INFO  api.test.UserTests - ********** Reading User Info ***************
+08:12:02.838 [main] INFO  api.test.UserTests - **********User info  is displayed ***************
+08:12:02.864 [main] INFO  api.test.UserTests - ********** Updating User ***************
+08:12:04.117 [main] INFO  api.test.UserTests - ********** User updated ***************
+08:12:05.405 [main] INFO  api.test.UserTests - **********   Deleting User  ***************
+08:12:06.604 [main] INFO  api.test.UserTests - ********** User deleted ***************
+08:13:05.509 [main] INFO  api.test.UserTests - ********** Creating user  ***************
+08:13:10.095 [main] INFO  api.test.UserTests - **********User is creatged  ***************
+08:13:10.139 [main] INFO  api.test.UserTests - ********** Reading User Info ***************
+08:13:11.464 [main] INFO  api.test.UserTests - **********User info  is displayed ***************
+08:13:11.481 [main] INFO  api.test.UserTests - ********** Updating User ***************
+08:13:12.748 [main] INFO  api.test.UserTests - ********** User updated ***************
+08:13:13.990 [main] INFO  api.test.UserTests - **********   Deleting User  ***************
+08:13:15.359 [main] INFO  api.test.UserTests - ********** User deleted ***************
+08:14:05.816 [main] DEBUG api.test.UserTests - debugging.....
+08:14:05.841 [main] INFO  api.test.UserTests - ********** Creating user  ***************
+08:14:10.248 [main] INFO  api.test.UserTests - **********User is creatged  ***************
+08:14:10.284 [main] INFO  api.test.UserTests - ********** Reading User Info ***************
+08:14:11.592 [main] INFO  api.test.UserTests - **********User info  is displayed ***************
+08:14:11.626 [main] INFO  api.test.UserTests - ********** Updating User ***************
+08:14:12.876 [main] INFO  api.test.UserTests - ********** User updated ***************
+08:14:14.128 [main] INFO  api.test.UserTests - **********   Deleting User  ***************
+08:14:15.320 [main] INFO  api.test.UserTests - ********** User deleted ***************
+15:34:24.250 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+15:34:26.771 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+15:34:46.644 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+15:34:47.345 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+15:34:47.347 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+15:34:48.040 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+15:34:48.043 [main] INFO  apiTest.UserTest - ******************* You are about to delete user *********************
+08:28:33.422 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+08:28:36.324 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+08:28:45.476 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+08:49:32.361 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+08:49:34.929 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+08:49:42.139 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+08:49:44.513 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+08:49:44.518 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+08:49:45.215 [main] INFO  apiTest.UserTest - ******************* User info read! *********************
+08:49:45.219 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+08:49:45.224 [main] INFO  apiTest.UserTest - ******************* You are about to delete user *********************
+08:49:45.919 [main] INFO  apiTest.UserTest - ******************* User deleted! *********************
+08:51:07.377 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+08:51:24.610 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+08:51:26.740 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+08:51:26.744 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+08:51:27.486 [main] INFO  apiTest.UserTest - ******************* User info read! *********************
+08:51:27.487 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+08:51:27.494 [main] INFO  apiTest.UserTest - ******************* You are about to delete user *********************
+08:51:28.208 [main] INFO  apiTest.UserTest - ******************* User deleted! *********************
+09:15:06.193 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+09:15:08.316 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+09:15:08.320 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+09:15:09.019 [main] INFO  apiTest.UserTest - ******************* User info read! *********************
+09:15:09.021 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+09:15:09.027 [main] INFO  apiTest.UserTest - ******************* You are about to delete user *********************
+09:15:09.707 [main] INFO  apiTest.UserTest - ******************* User deleted! *********************
+09:28:42.004 [main] INFO  apiTest.UserTest2 - ******************* Creating user *********************
+09:28:44.539 [main] INFO  apiTest.UserTest2 - ******************* User created! *********************
+09:28:44.546 [main] INFO  apiTest.UserTest2 - ******************* Reading user info *********************
+09:28:45.255 [main] INFO  apiTest.UserTest2 - ******************* User info read! *********************
+09:28:45.256 [main] INFO  apiTest.UserTest2 - ******************* Updating user info *********************
+09:28:45.265 [main] INFO  apiTest.UserTest2 - ******************* You are about to delete user *********************
+09:28:45.963 [main] INFO  apiTest.UserTest2 - ******************* User deleted! *********************
+09:51:20.140 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+09:51:20.833 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+09:51:20.834 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+09:51:21.515 [main] INFO  apiTest.UserTest - ******************* User info read! *********************
+09:51:21.517 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+09:51:21.522 [main] INFO  apiTest.UserTest - ******************* You are about to delete user *********************
+09:51:22.207 [main] INFO  apiTest.UserTest - ******************* User deleted! *********************
+11:43:47.014 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+11:43:49.213 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+11:43:49.217 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+11:43:49.928 [main] INFO  apiTest.UserTest - ******************* User info read! *********************
+11:43:49.930 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+11:43:49.935 [main] INFO  apiTest.UserTest - ******************* You are about to delete user *********************
+11:43:50.605 [main] INFO  apiTest.UserTest - ******************* User deleted! *********************
+11:46:09.853 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+11:48:11.504 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+11:48:59.904 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+11:53:22.599 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+12:40:52.211 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+12:40:54.469 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+12:40:54.473 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+12:40:55.167 [main] INFO  apiTest.UserTest - ******************* User info read! *********************
+12:40:55.169 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+12:40:55.174 [main] INFO  apiTest.UserTest - ******************* You are about to delete user *********************
+12:40:55.840 [main] INFO  apiTest.UserTest - ******************* User deleted! *********************
+12:51:06.053 [main] INFO  apiTest.UserTest - ******************* Creating user *********************
+12:51:08.262 [main] INFO  apiTest.UserTest - ******************* User created! *********************
+12:51:08.266 [main] INFO  apiTest.UserTest - ******************* Reading user info *********************
+12:51:08.979 [main] INFO  apiTest.UserTest - ******************* User info read! *********************
+12:51:08.980 [main] INFO  apiTest.UserTest - ******************* Updating user info *********************
+12:51:10.328 [main] INFO  apiTest.UserTest - ******************* User info updated! *********************
+12:51:10.329 [main] INFO  apiTest.UserTest - ******************* You are about to delete user *********************
+12:51:11.012 [main] INFO  apiTest.UserTest - ******************* User deleted! *********************
