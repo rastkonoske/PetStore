@@ -21,12 +21,12 @@ public class StoreTest {
         faker=new Faker();
         storePayload = new Store();
 
-        storePayload.setOrderId(faker.idNumber().hashCode());
-        storePayload.getPetId();
+        storePayload.setOrderId(7);
+        storePayload.setPetId(12);
         storePayload.setQuantity(faker.hashCode());
         storePayload.setShipDate(faker.date().birthday());
         storePayload.setStatus(faker.bothify("placed"));
-        storePayload.setComplete(faker.equals(true));
+        storePayload.setComplete(true);
     }
 
     @Test(priority = 1)

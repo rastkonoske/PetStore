@@ -20,11 +20,11 @@ public class Store {
     }
 
     public long getPetId() {
-        return petId;
+        return Pet.petId;
     }
 
-    public void setPetID(int petId) {
-        this.petId = petId;
+    public void setPetId(int petId) {
+        Pet.petId = petId;
     }
 
     public int getQuantity() {

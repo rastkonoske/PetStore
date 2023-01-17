@@ -1,7 +1,6 @@
 package apiTest;
 
 import apiEndpoints.PetEndPoints;
-import apiEndpoints.UserEndPoints;
 import apiPayload.Category;
 import apiPayload.Pet;
 import apiPayload.Tags;
@@ -26,9 +25,9 @@ public class PetTest {
         categoryPayload = new Category();
         tagsPayload = new Tags();
 
-        petPayload.setPetId(faker.idNumber().hashCode());
-        petPayload.setName(faker.name().firstName());
+        petPayload.setPetId(12);
         petPayload.setPhotoURLS(faker.internet().image());
+        petPayload.setName(faker.name().firstName());
         petPayload.setStatus(faker.bothify("available"));
         categoryPayload.setId(faker.idNumber().hashCode());
         categoryPayload.setName(faker.name().firstName());
@@ -55,31 +54,30 @@ public class PetTest {
         Assert.assertEquals(response.getStatusCode(), 200);
     }
 
-//    @Test (priority = 3)
-//    public void updatePetByID()
-//    {
-//
-//        //update data using payload
-//        petPayload.setName(faker.name().firstName());
-//
-//        Response response=PetEndPoints.updatePet(Pet.getPetId(),petPayload);
-//        response.then().log().body();
-//
-//        Assert.assertEquals(response.getStatusCode(),200);
-//
-//        //Checking data after update
-//        Response responseAfterUpdate=PetEndPoints.readPet(Pet.getPetId());
-//        Assert.assertEquals(responseAfterUpdate.getStatusCode(),200);
-//
-//    }
-//
-//    @Test(priority=4)
-//    public void deletePetById()
-//    {
-//
-//        Response response=PetEndPoints.deletePet(this.petPayload.getPetId());
-//        Assert.assertEquals(response.getStatusCode(),200);
-//
-//    }
+    @Test (priority = 3)
+    public void updatePetByName()
+    {
+        //update data using payload
+        petPayload.setName("Dzeki");
+
+        Response response=PetEndPoints.updatePet(this.petPayload.getPetId(),petPayload);
+        response.then().log().body();
+
+        Assert.assertEquals(response.getStatusCode(),200);
+
+        //Checking data after update
+        Response responseAfterUpdate=PetEndPoints.readPet(this.petPayload.getPetId());
+        Assert.assertEquals(responseAfterUpdate.getStatusCode(),200);
+
+    }
+
+    @Test(priority=4)
+    public void deletePetById()
+    {
+
+        Response response=PetEndPoints.deletePet(this.petPayload.getPetId());
+        Assert.assertEquals(response.getStatusCode(),200);
+
+    }
 
 }

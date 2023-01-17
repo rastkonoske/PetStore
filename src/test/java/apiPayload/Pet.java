@@ -1,20 +1,23 @@
 package apiPayload;
 
+import org.testng.annotations.DataProvider;
+
 public class Pet {
 
     Category category;
     Tags tags;
-    int petId;
+    static  int petId;
     String name;
     String photoURLS;
     String status;
+
 
     public int getPetId() {
         return petId;
     }
 
     public void setPetId (int petId) {
-        this.petId = petId;
+        Pet.petId = petId;
     }
 
     public String getName() {
@@ -54,4 +57,5 @@ public class Pet {
     public void setTags(Tags tags) {
         this.tags = tags;
     }
+
 }

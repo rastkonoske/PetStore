@@ -19,9 +19,7 @@ public class PetEndPoints {
     }
 
     public static Response readPet(int petId){
-        return given().
-                contentType(ContentType.JSON).
-                accept(ContentType.JSON)
+        return given()
                 .pathParam("petId", petId ) //petID //"9223372036854705970"
                 .when()
                 .get(Routes.pet_get_url);
