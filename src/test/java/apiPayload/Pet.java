@@ -1,14 +1,14 @@
 package apiPayload;
 
-import org.testng.annotations.DataProvider;
+import java.util.List;
 
 public class Pet {
 
+    static int petId;
     Category category;
-    Tags tags;
-    static  int petId;
     String name;
-    String photoURLS;
+    List<String> photoUrls;
+    List<Tags> tags;
     String status;
 
 
@@ -20,6 +20,14 @@ public class Pet {
         Pet.petId = petId;
     }
 
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
     public String getName() {
         return name;
     }
@@ -28,12 +36,20 @@ public class Pet {
         this.name = name;
     }
 
-    public String getPhotoURLS() {
-        return photoURLS;
+    public List<String> getPhotoUrls() {
+        return photoUrls;
     }
 
-    public void setPhotoURLS(String photoURLS) {
-        this.photoURLS = photoURLS;
+    public void setPhotoUrls(List<String> photoUrls) {
+        this.photoUrls = photoUrls;
+    }
+
+    public List<Tags> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<Tags> tags) {
+        this.tags = tags;
     }
 
     public String getStatus() {
@@ -43,19 +59,4 @@ public class Pet {
     public void setStatus(String status) {
         this.status = status;
     }
-
-    public void getCategory() {
-    }
-
-    public void setCategory(Category category) {
-        this.category = category;
-    }
-
-    public void getTags() {
-    }
-
-    public void setTags(Tags tags) {
-        this.tags = tags;
-    }
-
 }

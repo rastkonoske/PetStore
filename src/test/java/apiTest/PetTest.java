@@ -26,15 +26,12 @@ public class PetTest {
         tagsPayload = new Tags();
 
         petPayload.setPetId(12);
-        petPayload.setPhotoURLS(faker.internet().image());
         petPayload.setName(faker.name().firstName());
         petPayload.setStatus(faker.bothify("available"));
-        categoryPayload.setId(faker.idNumber().hashCode());
+        categoryPayload.setId(5);
         categoryPayload.setName(faker.name().firstName());
-        petPayload.getCategory();
         tagsPayload.setId(faker.idNumber().hashCode());
         tagsPayload.setName(faker.name().firstName());
-        petPayload.getTags();
 
     }
 
