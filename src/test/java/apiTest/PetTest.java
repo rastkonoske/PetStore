@@ -28,7 +28,7 @@ public class PetTest {
         petPayload.setPetId(12);
         petPayload.setName(faker.name().firstName());
         petPayload.setStatus(faker.bothify("available"));
-        categoryPayload.setId(5);
+        categoryPayload.setId(faker.idNumber().hashCode());
         categoryPayload.setName(faker.name().firstName());
         tagsPayload.setId(faker.idNumber().hashCode());
         tagsPayload.setName(faker.name().firstName());
