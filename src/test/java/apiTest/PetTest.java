@@ -10,12 +10,16 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PetTest {
 
     Faker faker;
     Pet petPayload;
     Category categoryPayload;
     Tags tagsPayload;
+    List <String> list;
 
     @BeforeClass
     public void setup() {
@@ -24,14 +28,18 @@ public class PetTest {
         petPayload = new Pet();
         categoryPayload = new Category();
         tagsPayload = new Tags();
+        list = new ArrayList<String>();
 
         petPayload.setPetId(12);
         petPayload.setName(faker.name().firstName());
+        petPayload.setPhotoUrls(list);
         petPayload.setStatus(faker.bothify("available"));
         categoryPayload.setId(faker.idNumber().hashCode());
         categoryPayload.setName(faker.name().firstName());
+        petPayload.getCategory();
         tagsPayload.setId(faker.idNumber().hashCode());
         tagsPayload.setName(faker.name().firstName());
+        petPayload.getTags();
 
     }
 
