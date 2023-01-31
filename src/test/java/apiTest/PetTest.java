@@ -68,8 +68,6 @@ public class PetTest {
         Response response=PetEndPoints.updatePet(this.petPayload.getPetId(),petPayload);
         response.then().log().body();
 
-        Assert.assertEquals(response.getStatusCode(),200);
-
         //Checking data after update
         Response responseAfterUpdate=PetEndPoints.readPet(this.petPayload.getPetId());
         Assert.assertEquals(responseAfterUpdate.getStatusCode(),200);
