@@ -9,9 +9,9 @@
             <class name="apiTest.PetTest">
                 <methods>
                     <include name="testPostPet"/>
-                    <include name="getPetByName"/>
+                    <include name="getPetById"/>
                     <include name="updatePetByName"/>
-                    <include name="deletePetByName"/>
+                    <include name="deletePetById"/>
                 </methods>
             </class>
             <class name="apiTest.StoreTest">
