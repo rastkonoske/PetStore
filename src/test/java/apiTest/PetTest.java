@@ -62,13 +62,11 @@ public class PetTest {
     @Test (priority = 3)
     public void updatePetByName()
     {
-        //update data using payload
         petPayload.setName("Dzeki");
 
         Response response=PetEndPoints.updatePet(this.petPayload.getPetId(),petPayload);
         response.then().log().body();
 
-        //Checking data after update
         Response responseAfterUpdate=PetEndPoints.readPet(this.petPayload.getPetId());
         Assert.assertEquals(responseAfterUpdate.getStatusCode(),200);
 
